@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
@@ -15,6 +17,7 @@ public class IfElse {
             ans = "Weird";
         }
         else{
+
             if(n>=2 && n<=5)
             System.out.println("Not Weird");
             if(n>=6 && n<=20)
